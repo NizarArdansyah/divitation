@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Header from "components/componentHeader.js"
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -15,7 +14,6 @@ export default function Home() {
         <h1 className="text-4xl font-bold">Divitation</h1>
         <small className="italic text-red-700 text-center">Home Page</small>
       </div>
-      <Header></Header>
     </div>
   );
 }
